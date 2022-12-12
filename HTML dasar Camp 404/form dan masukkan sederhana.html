@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Form</title>
+  </head>
+  <body>
+    <form action="file_aksi.php" method="post">
+      <label for="#">Nama: <input type="text" name="NamaPengguna" /> </label>
+      <br />
+      <label for="#"> Password: <input type="password" name="Pasword" /></label>
+      <br />
+      <input type="submit" value="Kirim" />
+    </form>
+    <br /><br /><br />
+
+    <!--Dari WPU-->
+    <form>
+      <label for="Nama">Nama:</label>
+      <input type="text" id="Nama" />
+      <br />
+      <label for="pasword">Pasword:</label>
+      <input type="password" id="password" />
+      <br />
+      <button>Kirim</button>
+    </form>
+    <br /><br /><br />
+    <!--Contoh Soal Menggunakan materi camp404-->
+    <form action="#">
+      <label>Nama: <input type="text" name="Nama" /></label>
+      <br /><br />
+      <label>Tanggal Lahir:</label>
+      <input type="date" name="tgllhr" />
+      <br /><br />
+      <label>Jenis Kelamin:</label>
+      <input type="radio" name="Jenis Kelamin" value="Laki-Laki" />
+      <label for="Jenis Kelamin">Laki-Laki</label>
+      <input type="radio" name="Jenis Kelamin" value="Perempuan" />
+      <label for="Jenis Kelamin">Perempuan</label>
+      <br /><br />
+      <label>Hobi:</label>
+      <br /><br />
+      <input type="checkbox" name="Hobi" value="Membaca" />
+      <label for="Hobi">Membaca</label>
+      <br /><br />
+      <input type="checkbox" name="Hobi" value="Olahraga" />
+      <label for="Hobi">Olahraga</label>
+      <br /><br />
+      <input type="checkbox" name="Hobi" value="Jalan-Jalan" />
+      <label for="Hobi">Jalan-Jalan</label>
+      <br /><br />
+      <label>Negara:</label>
+      <select name="Negara" size="1">
+        <option>select country</option>
+        <option value="AF">Afghanistan</option>
+        <option value="AX">Aland Islands</option>
+        <option value="AL">Albania</option>
+        <option value="DZ">Algeria</option>
+        <option value="AS">American Samoa</option>
+        <option value="AD">Andorra</option>
+        <option value="AO">Angola</option>
+      </select>
+      <br /><br />
+      <label>Alamat Lengkap:</label>
+      <textarea
+        name="Alamat lengkap"
+        id="Alamat Lengkap"
+        cols="20"
+        rows="10"
+      ></textarea>
+      <br /><br />
+      <label>Upload CV:</label>
+      <input type="file" name="Upload CV" />
+      <br /><br />
+      <label> Password:</label>
+      <input type="password" name="Pasword" />
+    </form>
+    <br /><br />
+    <!--Contoh Soal Menggunakan materi camp404-->
+    <form action="#">
+      <label for="#">Form Sewa Mobil:</label>
+      <br /><br />
+      <label>Nama: <input type="text" name="Nama" /></label>
+      <br /><br />
+      <label>Tempat Lahir: <input type="text" name="Tmptlahir" /></label>
+      <br /><br />
+      <label>Tanggal Lahir:</label>
+      <input type="date" name="tgllhr" />
+      <br /><br />
+      <label>Jenis Kelamin:</label>
+      <input type="radio" name="Jenis Kelamin" value="Laki-Laki" />
+      <label for="Jenis Kelamin">Laki-Laki</label>
+      <input type="radio" name="Jenis Kelamin" value="Perempuan" />
+      <label for="Jenis Kelamin">Perempuan</label>
+      <br /><br />
+      <label>Mobil yang akan disewa:</label>
+      <select name="Mobil" size="1">
+        <option>select Mobil</option>
+        <option value="">Avanza</option>
+        <option value="">Xenia</option>
+        <option value="">Innova</option>
+        <option value="">Jazz</option>
+      </select>
+      <label>Tahun:</label>
+      <select name="Tahun" size="1">
+        <option>Tahun</option>
+        <option value="">2018</option>
+        <option value="">2019</option>
+        <option value="">2020</option>
+        <option value="">2021</option>
+      </select>
+      <br /><br />
+      <label>Waktu Pengambilan Mobil:</label>
+      <input type="datetime-local" name="Waktu" color="red" />
+      <br /><br />
+      <label>Waktu Pengembalian Mobil:</label>
+      <input type="datetime-local" name="Waktu" />
+      <br /><br />
+      <label>Upload gambar KTP:</label>
+      <input type="file" name="KTP" />
+    </form>
+  </body>
+</html>
